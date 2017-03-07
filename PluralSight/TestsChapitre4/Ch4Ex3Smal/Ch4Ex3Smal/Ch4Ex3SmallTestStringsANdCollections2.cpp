@@ -19,8 +19,11 @@ int main()
 {
 	string name;
 	cout << "who are you ? ";
+	
+	cout << endl; 
+
 	cin >> name;
-	string greeting = " Hello, " + name;
+	string greeting = "Hello, " + name;
 	if (name == "Kurai")
 	{
 		greeting += ", I Know You ! ";
@@ -30,7 +33,7 @@ int main()
 	int l = greeting.length();
 	cout << "\"" + greeting + "\" is " << l << " characters long " << endl;
 	auto space = greeting.find(' ');
-	string beginning = greeting.substr(space + 2);
+	string beginning = greeting.substr(space+1);
 	cout << beginning << endl;; 
 	if (beginning == name)
 	{
