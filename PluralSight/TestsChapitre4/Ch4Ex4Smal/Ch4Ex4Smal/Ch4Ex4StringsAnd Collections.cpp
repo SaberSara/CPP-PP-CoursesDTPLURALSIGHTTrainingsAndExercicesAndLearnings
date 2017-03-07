@@ -11,16 +11,18 @@ int main()
 	int guess;
 	while (choice == 1)
 	{
-		bool notguessed = false;
-		while (notguessed == true)
-		{
 			string word1;
 			string word2;
 			cout << " Input Word 1 : " << endl;
 			cin >> word1;
-			cout << " Input Word 2 : " << endl;
+
+
+
+
+
+			cout << " Input Word 2 : " << endl ;
 			cin >> word2;
-			// cout << endl;
+			cout << endl;
 
 			if (word1.length() > word2.length())
 			{
@@ -33,7 +35,6 @@ int main()
 			if (word1.length() == word2.length())
 			{
 				cout << " The Word 1 : " << word1 << " Is The Same / \ \ Is Equal / \ \ Is The Same Length / \ \ Is Equivalent / \ \ Is Equivalent / \ \ In / \ \ At / \ \ On / \ \ Into / \ \ On Length Then The Number 2 : " << word2 << endl;
-			}
 		}
 		do {
 			cout << " Would You Like To Continue ? Any Buttons For Yes \ Any Buttons 1 For Yes \ 1 Any Buttons For Yes \ Any Buttons For Yes 1 \ 1 Any Buttons For Yes \ 1 For Yes \ 0 For No : " << endl;

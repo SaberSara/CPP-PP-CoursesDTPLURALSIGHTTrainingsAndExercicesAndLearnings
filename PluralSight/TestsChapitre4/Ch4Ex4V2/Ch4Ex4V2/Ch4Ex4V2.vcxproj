@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{9476321C-0229-4240-9CC6-0ADE6F22D164}</ProjectGuid>
-    <RootNamespace>Ch4Ex4Smal</RootNamespace>
+    <ProjectGuid>{83FB04E0-8870-40D2-B630-3521820CF0C1}</ProjectGuid>
+    <RootNamespace>Ch4Ex4V2</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -110,8 +110,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Ch4Ex4StringsAnd Collections.cpp" />
-    <ClCompile Include="Ch4Ex4V2getLineSmallTest.cpp" />
+    <ClCompile Include="Ch4Ex4V2StringssAndCollectionsss.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
