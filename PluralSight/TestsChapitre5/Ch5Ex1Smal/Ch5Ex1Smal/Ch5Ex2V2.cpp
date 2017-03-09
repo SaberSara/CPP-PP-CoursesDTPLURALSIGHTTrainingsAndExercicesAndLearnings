@@ -10,13 +10,13 @@
 
 
 
-using namespace std; 
+using namespace std;
 
 int main()
 {
-	Account al; 
+	Account al;
 	al.Deposit(90);
-	cout << " After Depositiing $90 " << " Balance Is : " << al.GetBalance() << endl; 
+	cout << " After Depositiing $90 " << " Balance Is : " << al.GetBalance() << endl;
 	for (auto s : al.Report())
 	{
 		cout << s << endl;
@@ -24,12 +24,12 @@ int main()
 	al.withdraw(50);
 	if (al.withdraw(100))
 	{
-		cout << " Second Withdraw succeeds " << endl; 
+		cout << " Second Withdraw succeeds " << endl;
 	}
 	cout << " After Withdrawig $50 Then $100 " << endl;
 	for (auto s : al.Report())
 	{
-		cout << s << endl; 
+		cout << s << endl;
 	}
 
 
@@ -41,5 +41,5 @@ int main()
 
 
 
-	return 0; 
+	return 0;
 }

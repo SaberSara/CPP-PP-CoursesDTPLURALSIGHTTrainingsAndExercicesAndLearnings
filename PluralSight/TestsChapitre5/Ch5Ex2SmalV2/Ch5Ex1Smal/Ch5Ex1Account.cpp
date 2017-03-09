@@ -59,7 +59,7 @@ bool Account::withdraw(int amt)
 	}
 }
 
-int Account::GetBalance()
-{
-	return balance; 
-}
+//int Account :: GetBalance ()
+//{
+//	return balance; 
+//}

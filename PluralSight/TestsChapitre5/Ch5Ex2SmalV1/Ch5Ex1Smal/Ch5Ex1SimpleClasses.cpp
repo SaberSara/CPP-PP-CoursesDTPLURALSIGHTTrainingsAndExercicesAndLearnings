@@ -16,7 +16,7 @@ int main()
 {
 	Account al; 
 	al.Deposit(90);
-	cout << " After Depositiing $90 " << " Balance Is : " << al.GetBalance() << endl; 
+	cout << " After Depositiing $90 " << endl; 
 	for (auto s : al.Report())
 	{
 		cout << s << endl;
