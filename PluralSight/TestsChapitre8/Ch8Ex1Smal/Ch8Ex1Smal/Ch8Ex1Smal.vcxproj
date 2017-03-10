@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{337A1E31-9A59-4F23-85EF-2807B1F01FF9}</ProjectGuid>
-    <RootNamespace>Ch7Ex3Smal</RootNamespace>
+    <ProjectGuid>{B23D4684-1EEC-48D5-9134-F427A1F69331}</ProjectGuid>
+    <RootNamespace>Ch8Ex1Smal</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -110,14 +110,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\TestsChapitre5\Ch5Ex2SmalV2\Ch5Ex1Smal\Ch7Ex3Account.cpp" />
-    <ClCompile Include="..\..\..\TestsChapitre5\Ch5Ex2SmalV2\Ch5Ex1Smal\Ch7Ex3SimpleClasses.cpp" />
-    <ClCompile Include="Ch7Ex3Paramssesss.cpp" />
-    <ClCompile Include="Ch7Ex3Transaction.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\TestsChapitre5\Ch5Ex2SmalV2\Ch5Ex1Smal\Ch7Ex3Transaction.h" />
-    <ClInclude Include="Ch7Ex3Account.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

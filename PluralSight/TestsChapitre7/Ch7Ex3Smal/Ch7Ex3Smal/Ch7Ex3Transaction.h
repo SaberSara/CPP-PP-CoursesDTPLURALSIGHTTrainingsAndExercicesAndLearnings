@@ -23,5 +23,5 @@ private :
 public:
 	Transaction(int amt, std::string kind);
 	std::string Report()    const ;
-	void DoubleAmount() /* const */ { amount *= 2; }; 
+	void DoubleAmount() { amount *= 2; }; 
 };
