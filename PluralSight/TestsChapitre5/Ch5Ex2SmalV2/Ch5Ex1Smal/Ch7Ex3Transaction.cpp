@@ -1,4 +1,4 @@
-#include "Ch5Ex1Transaction.h"
+#include "Ch7Ex3Transaction.h"
 
 using namespace std; 
 
@@ -6,7 +6,7 @@ Transaction::Transaction(int amt, string kind) : amount ( amt ) , type ( kind )
 {
 
 }
-string Transaction::Report()
+string Transaction::Report() const 
 {
 	string report; 
 	report += "  "; 

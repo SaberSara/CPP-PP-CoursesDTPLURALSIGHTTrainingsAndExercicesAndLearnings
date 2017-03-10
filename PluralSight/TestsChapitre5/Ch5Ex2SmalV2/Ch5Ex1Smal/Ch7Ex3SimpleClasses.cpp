@@ -6,7 +6,7 @@
 
 
 #include<iostream>
-#include"Ch5Ex1Account.h"
+#include  "Ch7Ex3Account.h"
 
 
 
@@ -15,7 +15,12 @@ using namespace std;
 int main()
 {
 	Account al; 
+	const int amount = 90; 
 	al.Deposit(90);
+	//amount = 100; 
+	// amount = 100 ; 
+	//amount = 100; 
+	//amount = 100; 
 	cout << " After Depositiing $90 " << " Balance Is " << al.GetBalance()  << endl; 
 	for (auto s : al.Report())
 	{
